@@ -3,7 +3,7 @@ import quandl as qd
 import matplotlib.pyplot as plt
 import numpy as np
 
-qd.ApiConfig.api_key = 'jU_22axKtDben1SSgrHW'
+qd.ApiConfig.api_key = '<your API Key>'
 
 aapl_data = qd.get('EOD/MSFT', start_date="2010-01-01", end_date="2020-01-01")
 Apple = aapl_data.head()
